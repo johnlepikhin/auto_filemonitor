@@ -1,0 +1,15 @@
+OASISFormat: 0.4
+Name:        filemonitor
+Version:     0.1
+Synopsis:    Tiny module to monitor file status
+Authors:     Evgenii Lepikhin
+License:     LGPL-3.0
+Plugins:     META (0.4)
+BuildTools: ocamlbuild
+AlphaFeatures: ocamlbuild_more_args
+BuildDepends: unix
+OCamlVersion: >= 4.01
+
+Library filemonitor
+  Path:       src
+  Modules:    Filemonitor
